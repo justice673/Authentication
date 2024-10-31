@@ -1,0 +1,125 @@
+.form {
+    display: flex;
+    /* color: #007BFF; */
+    height: 90vh;
+    width: 70vw;
+    margin: 2em auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 10px white;
+  }
+  .left {
+    width: 50%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    position: relative;
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .content h1 {
+    font-size: 40px;
+  }
+  .content p{
+    font-size: 12px;
+  }
+  .circle{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    bottom: 0;
+    left: -8em;
+    transform: translateX( -32em );
+    transform: translateY(10em);
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  .circle1{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    bottom: 0;
+    left: -6em;
+    transform: translateX( -20em );
+    transform: translateY(12em);
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  .right {
+    width: 50%;
+    padding: 2em;
+    display: grid;
+    place-content: center;
+  }
+  .right img{
+    transform: translateX(5em);
+  }
+  .right h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 2em;
+  }
+  .right p{
+    font-size: 12px;
+    padding-left: 1em;
+}
+
+  .right form div {
+    position: relative;
+  }
+  .right form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.right input {
+    width: 250px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 30px;
+    color: black;
+    border: 1px solid #111111;
+    padding-left: 1em;
+}
+.otpBtn {
+    width: 250px;
+    height: Hug (57px) px;
+    padding: 9px 55px 9px 55px;
+    gap: 10px;
+    transform: translateY(1em);
+    border-radius: 30px;
+    opacity: 0px;
+    background: #007BFF;
+    color: white;
+    border: none;
+}
+.exist{
+    transform: translateX(3em);
+    transform: translateY(1em);
+    }
+    .exist p:first-child{
+        transform: translateX(-2.3em);
+    }
+    .click{
+        margin-top: 1em;
+    }
+    .click a{
+    font-size: 16px; 
+    }
+   .exist a{
+    color: #007BFF ;
+    text-decoration: none;
+    font-size: 14px;
+  } 

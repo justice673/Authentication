@@ -1,0 +1,87 @@
+/* Container for the reset password section */
+.container {
+    max-width: 400px;
+    margin: 8em auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title Styling */
+.title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Form Styling */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Container */
+.inputContainer {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+.inputContainer:focus {
+    border-color: #0070f3;
+    outline: none;
+}
+
+/* Submit Button */
+.submitButton {
+    padding: 12px;
+    margin-top: 1rem;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+    background-color: #005bb5;
+}
+
+/* Message Text */
+.message {
+    margin-top: 1rem;
+    color: #28a745; /* Success color */
+    font-size: 14px;
+}
+.back{
+    color: black;
+    transform: translateY(0.5em);
+}
+.back a{
+    color: #0070f3;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .inputContainer,
+    .submitButton {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,232 @@
+/* Desktop styles (1025px and wider) */
+@media screen and (min-width: 1025px) {
+  .form {
+    display: flex;
+    color: #007BFF;
+    height: 90vh;
+    width: 80vw;
+    margin: 2em auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.322);
+  }
+  .left {
+    width: 100%;
+    /* background: linear-gradient(180deg, #190217 0%, #190217 60%, #190217 100%); */
+    background-color: #F0F0F0;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    position: relative;
+  }
+  .left button {
+    color: #ffffff;
+    background-color: #007BFF;
+    padding: 0.5em 2em;
+    border-radius: 30px;
+    width: fit-content;
+    border: none;
+  }
+  .content {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .content h1 {
+    font-size: 40px;
+  }
+  .con p{
+    color: #333333;
+  }
+  .right {
+    width: 50%;
+    padding: 2em;
+    display: grid;
+    place-content: center;
+  }
+  .right h2 {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .right p,
+  .right a {
+    font-size: 12px;
+  }
+  .right form div {
+    position: relative;
+  }
+  .right form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    justify-content: center;
+    padding: 1em 0;
+  }
+  
+  .right form i {
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    top: 50%;
+    color: #333333;
+    transform: translate(-50%, -50%);
+  }
+  .right input {
+    width: Fixed (307px) px;
+    height: Hug (60px) px;
+    padding: 9px 26px 9px 40px;
+    gap: 10px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #333333;
+  }
+  
+  .right form button {
+    /* width: Fixed (307px) px; */
+    height: Hug (57px) px;
+    padding: 9px 26px 9px 26px;
+    gap: 10px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: #007BFF;
+    color: white;
+    border: none;
+  }
+  .bot {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+  }
+  .exist {
+    display: flex;
+    gap: 0.1em;
+  }
+  .bot a {
+    color: #007BFF;
+    font-weight: 600;
+  }
+  .bot p, .exist p{
+    color: #333333;
+  }
+  .forgot {
+    text-align: end;
+    /* background-color: red; */
+  }
+  .forgot a{
+    color: #007BFF;
+  }
+  }
+  
+  /* ==========================  Phone styles (up to 600px) =========================== */
+  @media (max-width: 600px) {
+    .left {
+      display: none;
+    }
+    .right {
+      padding: 2em;
+      display: grid;
+      place-content: center;
+      transform: translateY(7em);
+      /* background-color: red; */
+      /* box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.605); */
+    }
+    .right h2 {
+      font-weight: 700;
+      font-size: 25px;
+    }
+    .right p,
+    .right a {
+      font-size: 16px;
+    }
+    .right form div {
+      position: relative;
+    }
+    .right form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      width: 100%;
+      justify-content: center;
+      padding: 1em 0;
+    }
+    .right form i {
+      position: absolute;
+      z-index: 1;
+      left: 10%;
+      top: 50%;
+      color: #333333;
+      transform: translate(-50%, -50%);
+    }
+    .right input {
+      width: 100%; 
+      max-width: 307px; 
+      height: 25px; 
+      padding: 9px 26px 9px 20px;
+      gap: 10px;
+      outline: none;
+      border-radius: 30px;
+      border: 1px solid #333333;
+    }
+    .inputContainer {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    
+    .inputContainer input {
+      width: 100%;
+      padding-right: 40px; /* Add some padding to the right to make space for the icon */
+    }
+    .right form button {
+      width: 100%; 
+      max-width: 307px; 
+      height: 45px; 
+      padding: 9px 26px 9px 26px;
+      gap: 10px;
+      border-radius: 30px;
+      background: #007BFF;
+      color: white;
+      border: none;
+    }
+    .con h2{
+      color: #007BFF;
+    }
+    .con p{
+      color: #333333;
+    }
+    .bot {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      align-items: center;
+    }
+    .exist {
+      display: flex;
+      gap: 0.1em;
+    }
+    .bot p, .exist p{
+      color: #333333;
+    }
+    .bot a {
+      color: #007BFF;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+    }
+    .forgot {
+      text-align: end;
+    }
+    .forgot a {
+      color: #007BFF;
+    }
+  }
+  
+  
